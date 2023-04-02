@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.info {
+  float: left;
+  background-color: white;
+  width: 40%;
+  text-align: center;
+}
+.info ul a {
+  text-decoration: none;
+}
+.info ul a:hover {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.info li {
+  margin: 20px;
+}
+h1 {
+  margin: 20px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+hr {
+  width: 1200px;
+  margin: 10px;
+}
+p {
+  color: black;
+}
+i {
+  color: red;
+}
+h3 {
+  font-family: cursive;
+  font-size: smaller;
+}
+.favorite {
+  float: right;
+  width: 500px;
+  background-color: aqua;
+  margin: 10px 0;
+  padding: 20px;
+  box-shadow: 1px 1px 2px gray;
+}
+.favorite hr {
+  width: 300px;
+}
+.favorite h3 {
+  margin: 5px;
+}
+.favorite:hover {
+  color: gray;
+}
